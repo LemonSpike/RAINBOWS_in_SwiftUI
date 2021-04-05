@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct RainbowViewApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      RainbowView(size: .init(width: 300, height: 300))
     }
+  }
 }

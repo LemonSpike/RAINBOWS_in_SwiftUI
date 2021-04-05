@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD367F2D261B6F6700BB0D9A /* RainbowViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD367F2C261B6F6700BB0D9A /* RainbowViewApp.swift */; };
-		FD367F2F261B6F6700BB0D9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD367F2E261B6F6700BB0D9A /* ContentView.swift */; };
+		FD367F2F261B6F6700BB0D9A /* RainbowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD367F2E261B6F6700BB0D9A /* RainbowView.swift */; };
 		FD367F31261B6F6C00BB0D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD367F30261B6F6C00BB0D9A /* Assets.xcassets */; };
 		FD367F34261B6F6C00BB0D9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD367F33261B6F6C00BB0D9A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		FD367F29261B6F6700BB0D9A /* RainbowView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD367F2C261B6F6700BB0D9A /* RainbowViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowViewApp.swift; sourceTree = "<group>"; };
-		FD367F2E261B6F6700BB0D9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD367F2E261B6F6700BB0D9A /* RainbowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowView.swift; sourceTree = "<group>"; };
 		FD367F30261B6F6C00BB0D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD367F33261B6F6C00BB0D9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD367F35261B6F6C00BB0D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				FD367F2C261B6F6700BB0D9A /* RainbowViewApp.swift */,
-				FD367F2E261B6F6700BB0D9A /* ContentView.swift */,
+				FD367F2E261B6F6700BB0D9A /* RainbowView.swift */,
 				FD367F30261B6F6C00BB0D9A /* Assets.xcassets */,
 				FD367F35261B6F6C00BB0D9A /* Info.plist */,
 				FD367F36261B6F6C00BB0D9A /* RainbowView.entitlements */,
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD367F2F261B6F6700BB0D9A /* ContentView.swift in Sources */,
+				FD367F2F261B6F6700BB0D9A /* RainbowView.swift in Sources */,
 				FD367F2D261B6F6700BB0D9A /* RainbowViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +281,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.RainbowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -303,6 +304,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kasprasolutions.RainbowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
